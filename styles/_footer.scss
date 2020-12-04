@@ -1,0 +1,26 @@
+footer {
+  min-height: 7rem;
+  background-color: $background-color;
+  @include flex(center, center, column);
+  .social-links {
+    color: $red;
+    width: 100%;
+    @include flex(space-around, center, row);
+    a {
+      color: white;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  }
+
+  .credits {
+    font-size: 0.7rem;
+    color: #9b97d4;
+    flex-wrap: wrap;
+    @include flex(space-around, center, row);
+    li {
+      padding: 20px;
+    }
+  }
+}

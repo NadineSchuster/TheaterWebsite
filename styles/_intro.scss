@@ -1,0 +1,41 @@
+nav {
+  min-height: 10vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  @include flex(center, center, row);
+  ul {
+    flex: 1 1 40rem;
+    @include flex(space-around, center, row);
+    a {
+      color: $background-color;
+    }
+  }
+}
+main {
+  background: $background-color;
+}
+.main-head {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  @include flex(center, center, row-reverse);
+}
+.img-wrapper {
+  width: 50vw;
+  height: 30rem;
+  margin: auto;
+  background: black;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.intro-text {
+  width: 50vw;
+  height: 30rem;
+  padding: 2rem;
+  h2 {
+    padding: 2rem 0rem 1rem 0rem;
+  }
+}
