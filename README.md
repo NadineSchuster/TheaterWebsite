@@ -1,4 +1,4 @@
-# TeatherWebsite
+# TheaterWebsite
 A one page website
 ## What I learned
 - Sass
